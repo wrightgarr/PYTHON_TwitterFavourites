@@ -2,7 +2,7 @@ import tweepy
 import json
 import requests
 from requests_oauthlib import OAuth1
-from config import consumer_key,consumer_secret,access_token,access_token_secret, screen_name
+from config import consumer_key,consumer_secret,access_token,access_token_secret,screen_name
 
 # test connection/verify credentials
 url = 'https://api.twitter.com/1.1/account/verify_credentials.json'
